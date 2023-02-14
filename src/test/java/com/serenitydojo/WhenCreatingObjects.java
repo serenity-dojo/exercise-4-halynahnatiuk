@@ -20,6 +20,8 @@ public class WhenCreatingObjects {
         // TODO: implement a method in the Dog sound called makeNoise() that returns the sound a dog makes: "Woof", e.g.
         // dogSound = fido.makeNoise();
 
+        dogSound = fido.makeNoise();
+
         Assert.assertEquals(dogSound, "Woof");
     }
 
@@ -29,6 +31,7 @@ public class WhenCreatingObjects {
 
         // TODO: implement a method in the Dog sound called feed() that sets the isFed variable to true:
         // fido.feed();
+        fido.feed();
 
         Assert.assertTrue(fido.isFed());
 
